@@ -1,0 +1,31 @@
+/* CSS */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    background-image: url(../Assets/casal2.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body h1 {
+    font-weight: bolder;
+    color: black;
+}
+
+#conteudo {
+    text-align: center;
+    border: 2px solid #333;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.4); /* Fundo transparente */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para os botões */
+.btn {
+    margin: 10px;
+}
